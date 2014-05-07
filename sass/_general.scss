@@ -1,0 +1,81 @@
+main p {
+	max-width: 34em;
+
+	a {
+		border-bottom: .15*$rem solid #000; border-bottom: .15rem solid #000;
+		// line-height: 1;
+
+		&:hover {
+			border-color: rgba(0,0,0,0);
+		}
+	}
+}
+
+hgroup {
+	color: #fff;
+
+	a {
+		color: #fff;
+	}
+
+	h1 {
+		font-size: 2.8*$rem; font-size: 2.8rem;
+		margin: 0;
+		text-transform: uppercase;
+		line-height: 1.2;
+		padding: .6*$rem 1.4*$rem; padding: .6rem 1.4rem;
+		background: $orange;
+		border-bottom: $blackborder;
+		display: inline-block;
+		min-width: 34%;
+
+		a {
+			border-bottom: .15*$rem solid #fff; border-bottom: .15rem solid #fff;
+		}
+	}
+
+	h2 {
+		@extend h1;
+		font-size: 1.571*$rem; font-size: 1.571rem;
+	}
+
+	h3 {
+		font: {
+			family: $futurabook;
+			size: 1.179*$rem; size: 1.179rem;
+		}
+		background: $orange;
+		display: inline-block;
+		border-bottom: $blackborder;
+		padding: .6*$rem 1.375*$rem; padding: .6rem 1.375rem;
+		max-width: 80%;
+		line-height: 1.4;
+		position: relative;
+		top: -2*$rem; top: -2rem;
+		min-width: 22%;
+		max-width: 75%;
+	}
+}
+
+h4 {
+	font-size: 1.375*$rem; font-size: 1.375rem;
+	margin: 2.1*$rem 0 .581*$rem; margin: 2.1rem 0 .581rem;
+	color: $orange;
+
+	+ p, + ul {
+		margin-top: 0;
+	}
+}
+
+aside {
+	font-size: 1.17*$rem; font-size: 1.179rem;
+	margin-top: 3.3*$rem; margin-top: 3.3rem;
+
+	h2 {
+		color: $orange;
+	}
+
+	ul {
+		padding-left: 0;
+	}
+}

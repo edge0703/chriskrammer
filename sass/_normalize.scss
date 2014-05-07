@@ -1,0 +1,85 @@
+/* ------------------------
+   Normalize, inspired by http://bit.ly/p8QWOM and http://bit.ly/jOrWmU
+   ------------------------ */
+
+fieldset, form, legend, details, figure, figcaption, menu, input[type=radio], input[type=checkbox], blockquote p, nav ul, nav ol {margin: 0; padding: 0}
+
+img, hr, fieldset, legend {border: 0}           
+   
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, main {display: block}
+
+audio, canvas, video {display: inline-block} audio:not([controls]) {display: none}
+
+html {font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%}
+
+@media all and (max-width: 40em) {
+	html {font-size: 85%; overflow-y: scroll; -webkit-text-size-adjust: 90%; -ms-text-size-adjust: 90%}
+}	
+
+body, button, input, select, textarea {font-family: $futurabook; color: #333; font-size: 1.375*$rem; font-size: 1.375rem; line-height: 1.5; font-weight: normal;}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	font: {
+		family: $futurabold;
+		weight: normal;
+	}
+}
+
+::-moz-selection {background: $orange; color: #fff; text-shadow: none} ::selection {background: $orange; color: #fff; text-shadow: none}
+
+a {color: #000; text-decoration: none; @include transition} a:focus {outline: thin dotted} a:hover, a:active {outline: 0}
+
+abbr[title] {border-bottom: 1px dotted} dfn {font-style: italic} ins {text-decoration: none}
+
+b, strong {
+	font: {
+		family: $futurabold;
+		weight: normal;
+	}
+}
+
+i, em {
+	font: {
+		family: $futurabookoblique;
+		style: normal;
+	}
+}
+
+img {vertical-align: middle; border: 0; max-width: 100%; max-height: 46*$rem; max-height: 46rem; height: auto}
+
+hr {display: block; height: 1px; border-top: 1px solid #ccc; margin: 1em 0}
+
+code, kbd, pre, samp {font-family: "Courier New", monospace; font-size: 1em} pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word}
+
+q {quotes: "\201C" "\201D" "\2018" "\2019"}
+
+small {font-size: 85%}
+
+sub, sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline} sup {top: -0.5em} sub {bottom: -0.25em}
+
+table {border-collapse: collapse; border-spacing: 0} td {vertical-align: top}
+
+nav ul {list-style: none}
+
+form * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box}
+
+legend {border: 0}
+
+button, input, select, textarea {font-size: 100%; font-family: inherit; vertical-align: baseline; line-height: normal; margin: 0}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {cursor: pointer; -webkit-appearance: button; width: auto; overflow: visible; margin: 0; font-family: inherit}
+
+button[disabled], input[disabled] {cursor: default}
+
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0}
+
+input[type="checkbox"], input[type="radio"] {vertical-align: -2px} 
+
+input[type="search"] {-webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box} input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {-webkit-appearance: none}
+
+input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #6d6d6d} input:-moz-placeholder {color: #6d6d6d}
+
+textarea {overflow: auto; vertical-align: top}
+
+[data-replace] {text-indent: 100%; white-space: nowrap; overflow: hidden} [data-hide] {display: none !important}

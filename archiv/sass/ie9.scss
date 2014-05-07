@@ -1,0 +1,22 @@
+@media all and (min-width: 500px) { 
+
+.prj {
+	width: auto;
+	overflow: hidden;
+	margin-right: -.5rem;
+
+	li {
+		float: left;
+		overflow: hidden;
+		display: block;
+		margin-right: .5rem;
+		
+
+		img {
+			height: 140px;
+			overflow: hidden;
+		}
+	}
+}
+
+}

@@ -1,0 +1,22 @@
+#####################################################
+# CONFIGURE media caching
+#
+Header unset ETag
+FileETag None
+<filesMatch "(?i)^.*.(ico|flv|jpg|jpeg|png|gif|js|css)$">
+Header unset Last-Modified
+Header set Expires "Fri, 13 Dec 2013 00:00:00 GMT"
+Header set Cache-Control "public, no-transform"
+</filesMatch>
+#
+#####################################################
+
+<ifModule mod_deflate.c>
+<filesMatch ".(js|css)$">
+SetOutputFilter DEFLATE
+</filesMatch>
+</ifModule>
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

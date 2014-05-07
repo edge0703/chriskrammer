@@ -1,0 +1,28 @@
+@media all and (min-width: 500px) { 
+
+.prj {
+	margin-right: -2rem;
+
+	figcaption {
+		border: 0;
+	}
+
+	li {
+		float: left;
+		margin-right: 2rem;
+		
+
+		img {
+			height: 180px;
+		}
+	}
+}
+
+.prjdet {
+	.main {
+		opacity: 1;
+		left: 0 !important;
+	}
+}
+
+}

@@ -1,0 +1,31 @@
+nav > ul {
+
+	li {
+		float: left;
+		margin-right: 20px;
+	}
+}
+
+.prj {
+	max-width: 1300px !important;
+	width: auto;
+	overflow: hidden;
+	margin-right: -.5rem;
+
+	li {
+		float: left;
+		overflow: hidden;
+		display: block;
+		margin-right: .5rem;
+		
+
+		img {
+			height: 140px;
+			overflow: hidden;
+		}
+	}
+}
+
+.ab img {
+	width: 160px;
+}

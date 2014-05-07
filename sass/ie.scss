@@ -1,0 +1,21 @@
+body {
+	margin: 0 auto;
+}
+
+.prj {
+	li {
+		float: left;
+		margin-right: 32px;
+		
+		img {
+			height: 180px;
+		}
+	}
+}
+
+.prjdet {
+	.main {
+		opacity: 1;
+		left: 0 !important;
+	}
+}
