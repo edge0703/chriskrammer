@@ -2,7 +2,7 @@
 	@font-face {
 		font-family: '#{$fontName}';
 		src: url('../font/#{$fontName}.eot');
-		src: url('../font/#{$fontName}.eot?iefix') format('eot'), url('../font/#{$fontName}.svg##{$fontName}') format('svg'), url('../font/#{$fontName}.ttf') format('truetype'), url('../font/#{$fontName}.woff') format('woff');
+		src: url('../font/#{$fontName}.eot?iefix') format('eot'), url('../font/#{$fontName}.ttf') format('truetype'), url('../font/#{$fontName}.woff') format('woff');
 		font-weight: normal; font-style: normal;
 	}  
 }
@@ -17,6 +17,12 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+@mixin box-shadow($shadow...) {
+	-moz-box-shadow: $shadow;
+	-webkit-box-shadow: $shadow;
+	box-shadow: $shadow;
 }
 
 @mixin transition($dur: .3s) {

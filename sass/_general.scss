@@ -19,15 +19,12 @@ hgroup {
 	}
 
 	h1 {
-		font-size: 2.8*$rem; font-size: 2.8rem;
+		font-family: $futuralight;
+		font-size: 3.4*$rem; font-size: 3.4rem;
 		margin: 0;
 		text-transform: uppercase;
-		line-height: 1.2;
-		padding: .6*$rem 1.4*$rem; padding: .6rem 1.4rem;
-		background: $orange;
-		border-bottom: $blackborder;
-		display: inline-block;
-		min-width: 34%;
+		line-height: 1;
+		color: $orange;
 
 		a {
 			border-bottom: .15*$rem solid #fff; border-bottom: .15rem solid #fff;
@@ -36,7 +33,7 @@ hgroup {
 
 	h2 {
 		@extend h1;
-		font-size: 1.571*$rem; font-size: 1.571rem;
+		font-size: 2.6*$rem; font-size: 2.7rem;
 	}
 
 	h3 {
@@ -44,16 +41,9 @@ hgroup {
 			family: $futurabook;
 			size: 1.179*$rem; size: 1.179rem;
 		}
-		background: $orange;
-		display: inline-block;
-		border-bottom: $blackborder;
-		padding: .6*$rem 1.375*$rem; padding: .6rem 1.375rem;
-		max-width: 80%;
 		line-height: 1.4;
-		position: relative;
-		top: -2*$rem; top: -2rem;
-		min-width: 22%;
-		max-width: 75%;
+		color: #000;
+		margin: 0 0 3.6*$rem; margin: 0 0 3.6rem;
 	}
 }
 

@@ -10,6 +10,7 @@ $aPage = basename($_SERVER['PHP_SELF'],".php");
 switch ($aPage) {
 	case 'aboutme': $title = "About me | "; break;
 	case 'books': $title = "Books | "; break;
+	case 'project_knob': $title = "Colorful knob | "; break;
 	case 'project_sketchtips': $title = "sketchtips.info | "; break;
 	case 'project_migros': $title = "M-Electronics and Micasa | "; break;
 	case 'project_raunjak': $title = "Raunjak intermedias | "; break;

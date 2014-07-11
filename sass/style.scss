@@ -12,12 +12,11 @@
 
 html {
 	background: #ddd;
-	background: -webkit-radial-gradient(farthest-corner, hsl(0,0,80%), hsl(0,0,95%));
-	background: radial-gradient(farthest-corner, hsl(0,0,80%), hsl(0,0,95%));
+	background: -webkit-radial-gradient(farthest-corner, hsl(0,0,70%), hsl(0,0,95%));
+	background: radial-gradient(farthest-corner, hsl(0,0,70%), hsl(0,0,95%));
 }
 
 body {
-	// margin: .774*$rem; margin: .774rem;
 	margin: 0;
 	background: #fff;
 	max-width: 74*$rem; max-width: 74rem;
@@ -25,7 +24,6 @@ body {
 	@media all and (min-width: 76em) {
 		margin: 0 auto;
 		border: 0 solid #000;
-		// border-width: 0 .774*$rem;
 	}
 }
 
@@ -115,42 +113,34 @@ h1.ho {
 	display: none;
 }
 
-hgroup {
-	&.pr {
-		h1 {
-			font-size: 2.094*$rem; font-size: 2.094rem;
-		}
-	}
-
-	&.ab {
-		h1 {
-			min-width: 55%;
-		}
-	}
-}
-
 .prj {
+	$margin: 4;
+	$unit: 1%;
 	list-style: none;
 	padding: 0;
 	font-family: $futurabold;
 	margin: 0;
 	max-width: 92*$rem; max-width: 92rem;
 	overflow: hidden;
+	font-size: 0;
+	margin-left: $margin * -1 * $unit;
+	width: 100 + $margin * $unit;
 
 	img {
 		@include transition;
 		@include box-sizing;
-		border: .884*$rem solid $orange; border: .884rem solid $orange;
+		@include box-shadow(0 $blackborder-size 0 $blackborder-color);
+		margin-bottom: $blackborder-size;
 	}
 
 	figcaption {
-		border-top: $blackborder;
 		padding-top: .2*$rem; padding-top: .2rem;
 		@include transition;
 	}
 
 	a {
 		font-size: 1*$rem; font-size: 1rem;
+		display: block;
 	}
 
 	i {
@@ -158,53 +148,44 @@ hgroup {
 			family: $futuralight;
 			style: normal;
 		}
+
 		float: left;
 		margin: .1*$rem .6*$rem 0 0; margin: .1rem .6rem 0 0;
 		text-transform: uppercase;
 	}
 
 	li {
-		margin-bottom: 1.8*$rem; margin-bottom: 1.8rem;
+		font-size: 1*$rem; font-size: 1rem;
+		margin: 0 0 2.5*$rem ($margin * $unit); margin: 0 0 2.5rem ($margin * $unit);
 		position: relative;
 		z-index: 0;
 		overflow: hidden;
 		display: inline-block;
+		width: 100 - $margin * $unit;
 
 		&:hover {
 			img {
-				border-width: .21*$rem; border-width: .21rem;
+				@include box-shadow(0 $blackborder-size 0 $orange);
 			}
-
-			figcaption {
-				border-width: 0;
-			}
-		}
-
-		@media all and (min-width: 33em) {
-			display: block;
 		}
 	}
 
 	@media all and (min-width: 33em) {
-		width: 100%;
-		-webkit-column-gap: 10%;
-		-webkit-column-count: 2;
-		-moz-column-gap: 10%;
-		-moz-column-count: 2;
-		column-gap: 10%;
-		column-count: 2;
+		li {
+			width: (100 - 2*$margin) / 2 * $unit;
+		}
 	}
 
 	@media all and (min-width: 51em) {
-		-webkit-column-count: 3;
-		-moz-column-count: 3;
-		column-count: 3;
+		li {
+			width: (100 - 3*$margin) / 3 * $unit;
+		}
 	}
 
 	@media all and (min-width: 75em) {
-		-webkit-column-count: 4;
-		-moz-column-count: 4;
-		column-count: 4;
+		li {
+			width: (100 - 4*$margin) / 4 * $unit;
+		}
 	}
 }
 

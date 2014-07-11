@@ -76,6 +76,12 @@
 	<img src="img/books/dontmakemethink.jpg" width="170" height="219" alt="">
 	<h2><a href="http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?ie=UTF8&qid=1399491569&sr=8-1&keywords=dont+make+me+think&tag=s601000020-20">Don't make me think</a>, <i>Steve Krug</i></h2>
 	<p>This is one of the books you can't miss to read if you have to do anything with web development. It not only teaches you the very essential elements of a website but also how important it is to test websites early and often. It&rsquo;s short, it&rsquo;s precise and when you read through it you will see every site with different eyes.</p>
+	</li>
+
+	<li>
+	<img src="img/books/stevejobs.jpg" width="170" height="258" alt="">
+	<h2><a href="http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/ref=sr_1_2?ie=UTF8&qid=1402690232&sr=8-2&keywords=steve">Steve Jobs</a>, <i>Walter Isaacson</i></h2>
+	<p>No matter if you are a designer or just interested in good design, you have to read this book. It not only tells you about the person, the genius, Steve Jobs, but also about Apple, one of the most influential companies of the world. How everything started, which decisions were made, which errors, which accomplishments, that helped Apple to become so big and succesful. You can learn so much about good design in this book, what it is, but also what it isn&rsquo;t. Read it and marvel about it. You will never see the world the same afterwards.</p>
 	</li>	
 </ul>
 

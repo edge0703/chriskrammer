@@ -15,6 +15,11 @@
 
 <ul class="prj">
 	<li><figure>
+		<a href="project_knob.php"><img src="img/prj/playground_knob_sm.png" width="320" height="201" alt=""/>
+		<figcaption><i>Playground</i> Colorful knob</figcaption></a>
+	</figure></li>
+
+	<li><figure>
 		<a href="project_sketchtips.php"><img src="img/prj/sketchtips_sm.jpg" width="320" height="222" alt=""/>
 		<figcaption><i>Website</i> sketchtips.info</figcaption></a>
 	</figure></li>
@@ -25,8 +30,8 @@
 	</figure></li>
 
 	<li><figure>
-		<a href="project_raunjak.php"><img src="img/prj/raunjak_sm.jpg" width="320" height="320" alt=""/>
-		<figcaption><i>Website</i> raunjak intermedias</figcaption></a>
+		<a href="project_raunjak.php"><img src="img/prj/raunjak_sm.jpg" width="320" height="210" alt=""/>
+		<figcaption><i>Website</i> raunjak interm.</figcaption></a>
 	</figure></li>
 
 	<li><figure>
@@ -40,7 +45,7 @@
 	</figure></li>
 
 	<li><figure>
-		<a href="project_zeichn_hahn.php"><img src="img/prj/zeichnung_hahn_sm.jpg" width="320" height="320" alt=""/>
+		<a href="project_zeichn_hahn.php"><img src="img/prj/zeichnung_hahn_sm.jpg" width="320" height="245" alt=""/>
 		<figcaption><i>Drawing</i> Rooster</figcaption></a>
 	</figure></li>
 
@@ -95,7 +100,7 @@
 	</figure></li>
 	
 	<li><figure>
-		<a href="project_zeichn_katze.php"><img src="img/prj/zeichnung_katze_sm.jpg" width="320" height="382" alt=""/>
+		<a href="project_zeichn_katze.php"><img src="img/prj/zeichnung_katze_sm.jpg" width="320" height="229" alt=""/>
 		<figcaption><i>Drawing</i> Cat</figcaption></a>
 	</figure></li>
 

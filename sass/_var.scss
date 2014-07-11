@@ -1,5 +1,7 @@
 $orange: #ff7d00;
-$blackborder: .5rem solid #000;
+$blackborder-size: .5rem;
+$blackborder-color: #000;
+$blackborder: $blackborder-size solid $blackborder-color;
 $rem: 16px;
 $fallbackfont: 'Arial Narrow', Arial, sans-serif;
 $futurabold: 'Futura W01 Bold', $fallbackfont;
