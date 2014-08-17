@@ -15,7 +15,7 @@
 	<li>
 	<img src="img/books/transcendingcss.jpg" width="170" height="170" alt="">
 	<h2><a href="http://www.transcendingcss.com/">Transcending CSS</a>, <i>Andy Clarke</i></h2>
-	<p>One of my first books about web design and still by far my favorite one. It&rsquo;s a one-stop guide to everything related to the topic and still relevant after six years. It totally changed the understanding of my craft. </p>
+	<p>One of my first books about web design and still by far my favorite one. It&rsquo;s a one-stop guide to everything related to the topics and still relevant after six years. It totally changed the understanding of my craft. </p>
 	</li>
 	
 	<li>
